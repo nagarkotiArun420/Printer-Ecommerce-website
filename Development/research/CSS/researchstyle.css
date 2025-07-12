@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding:0;
+}
+ 
+/************************************************************************ NAVBAR SECTION ****************************************************************/
+
+.navbar
+{
+    position:fixed;
+height:30px;
+width:100%;
+padding:6px 0;
+letter-spacing: 3px;
+background-color:rgb(36, 36, 36);
+ z-index: 100; /*FOR THE NAVBAR TO COME FORWARD */
+opacity: 80%;
+}
+
+
+/* NAV BAR BUTTONS STYLING */
+.navbar ul li {
+    list-style: none;
+    margin: 0 40px;
+    text-decoration: none;
+    transition: 0.2s;
+    
+}
+
+/* NAV BAR BUTTONS HOVER EFFECT */
+.navbar ul li:hover
+{
+    opacity: 50%;
+}
+
+/* NAV BAR BUTTONS LINK STYLING */
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 5px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 100%;
+    
+    
+}
+
+/* NAV BAR ENTIRE LIST STYLING  */
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    padding:0 !important;
+}
+
+/************************************************************************** CONTENT SECTION  ************************************************************/
+/* MAIN BIG CONTAINER FOR SPACING ALL THE BOXES*/
+.head{
+        height:100px;
+        background:#1b1f19;
+        text-align:center;
+        color:black;
+        padding-bottom:10px;
+        padding-top: 60px;
+    }
+
+    /*CONTAINER */
+    .container{
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      column-gap: 80px;
+      padding-bottom: 70px;
+      padding-top: 70px;
+    }
+    
+     /* CONTAINER HEADIINGS LINK TO THE PAGE DECORATION IS SET TO NONE*/ 
+    .container a
+    {text-decoration: none;}
+    
+
+    /* VISIBLE BOXES INSIDE THE CONTAINER */
+    .item{
+        width: 80%;
+      height: 400px; 
+      box-sizing: border-box;
+      text-align: center;
+      cursor: pointer;
+      padding: 10px;
+      background: #ffffff;
+      position: relative;
+      border-radius: 15px;
+      transition: 1s;
+      box-shadow:0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      opacity: 80%;
+    }
+    
+ 
+    
+    /* ITEM BOX PARAGRAPH TEXT STYLING */
+    .item p{
+        color: rgb(20, 20, 20);
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 24px;
+        margin-left: 30px;
+        margin-right:30px;
+        text-align: right;
+    }
+    
+   
+
+    /* ITEM BOX HOVER EFFECT */
+    .item:hover
+    {
+        transform: scale(1.1);
+        background: #ecfaee;
+        color:#002e6b;
+        opacity: 100%;
+        
+
+    }
+
+    /* ITEM HEADING STYLING */
+    .item h3{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 36px;
+        text-align: left;
+        margin:20px;
+        transition: 0.3s;
+    }
+/* ITEM HEADING HOVER EFFECT */
+    .item h3:hover
+    {
+        font-size: 40px;
+    }
+
+    /* LOGO IMAGE MAIN CONTAINER */
+    .imgmain{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* LOGO IMAGE VISIBLE BOX INSIDE OF THE CONTAINER */
+    .imgcontainer{
+        margin-top:40px;
+            display: flex;
+          justify-content: center;
+          box-sizing: border-box;
+          box-shadow:0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          width: 400px;
+          height: 300px;
+          border-radius: 50px;
+          background: #000000;
+
+          
+    }
+
+/* IMAGE TRANSITION STYLING FOR HOVER EFFECT */
+    .imgcontainer img
+    {transition:0.6s;}
+
+    /* LOGO IMAGE HOVER EFFECT */
+    .imgcontainer img:hover
+    {
+        transform:scale(1.3);
+    }
+/************************************************************************** FOOTER SECTION *******************************************************************/
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #090b08;
+        column-gap: 80px;
+        width: 100%;
+        padding-bottom: 50px;
+    
+    }
+    
+    .socials{
+        display:flex;
+        border-radius: 50%;
+        width: 60px;
+      height: 60px;
+      box-sizing: border-box;
+      text-align: center;
+      cursor: pointer;
+      position: relative;
+      transition: 0.2s;
+      align-items: center;
+      background: black;
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+      justify-content: center;
+    }
+    
+    .socials img
+    {width:40px;
+    height: 40px;
+    }
+    
+    .socials:hover{
+        background-color: white;
+        box-shadow: 0 14px 28px rgba(86, 86, 86, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        
+    }
+    
+    
+    
+    h5{
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        color: aqua;
+        width: 100%;
+        padding-top:80px;
+    }
+

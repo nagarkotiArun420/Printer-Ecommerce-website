@@ -1,0 +1,239 @@
+*{ /*for selecting all universal element in html*/
+
+  margin:0px;
+  padding:0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container{
+  text-align:center; /*text to the center*/
+}
+  
+  
+.header h1{
+  margin:20px;
+  font-size: 58px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+  color: #272727;
+
+}
+.header h3{
+  font-size:24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #474747;
+ 
+}
+.img-area{
+  margin-top: 20px;
+  width:250px;
+ display: inline-block;
+ align-items: center;
+ 
+  
+
+
+
+}
+.img-area img{
+  width:100%;
+  box-sizing: border-box;
+  border-radius: 80px;
+  box-shadow:0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+
+.left{
+  padding:200px;
+}
+
+h2{
+  letter-spacing: 1px;
+  background-color: #474747;
+  border-radius: 30px;
+  color:rgb(255, 255, 255);
+  margin:20px;
+  font-size:34px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  padding: 30px;
+  box-shadow:0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.right{
+  padding:100px;
+  border-left: rgb(72, 72, 72) solid 5px;
+  
+}
+.right h3{
+margin:10px;
+}
+.main{
+display:flex; /*to use flex box property*/
+  margin:70px;
+  background-color:rgb(26, 26, 26);
+  box-sizing: border-box;
+  justify-content: center;
+  box-shadow:0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 20px;
+}
+.img-area1{
+  width:250px;
+  height:200px;
+  margin:20px 550px;
+  
+
+
+
+}
+.img-area1 img{
+  width:90%;
+
+
+}
+.img-area2{
+  width:250px;
+  height:200px;
+  margin:20px 550px;
+  
+
+
+
+}
+.img-area2 img{
+  width:60%;
+}
+.img-area3{
+  width:250px;
+  height:200px;
+  margin:20px 550px;
+  
+
+
+
+}
+.img-area3 img{
+  width:70%;
+
+
+}
+.img-area:hover { /*for making image responsive*/
+  opacity:0.8;
+  cursor: pointer;/*points the image*/
+}
+.img-area1:hover{
+  opacity:0.8;/*transparency of image*/
+  cursor:pointer;
+}
+.img-area2:hover{
+  opacity:0.8;
+  cursor:pointer;
+}
+.img-area3:hover{
+  opacity:0.8;
+  cursor:pointer;
+  
+}
+
+.navbar
+{
+    position:fixed;
+height:30px;
+width:100%;
+padding:6px 0;
+letter-spacing: 3px;
+background-color:rgb(36, 36, 36);
+z-index: 100;
+opacity: 80%;
+}
+
+
+
+.navbar ul li {
+    list-style: none;
+    
+    margin: 0 40px;
+    text-decoration: none;
+    transition: 0.2s;
+    
+}
+
+.navbar ul li:hover
+{
+    opacity: 50%;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 5px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 100%;
+    
+    
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #090b08;
+    column-gap: 80px;
+    width: 100%;
+    padding-bottom: 50px;
+
+}
+
+.socials{
+    display:flex;
+    border-radius: 50%;
+    width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s;
+  align-items: center;
+  background: black;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  justify-content: center;
+}
+
+.socials img
+{width:40px;
+height: 40px;
+}
+
+.socials:hover{
+    background-color: white;
+    box-shadow: 0 14px 28px rgba(86, 86, 86, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    
+}
+
+
+
+h5{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: aqua;
+    width: 100%;
+    padding-top:80px;
+}
+
+h3{
+  color: aliceblue;
+}
+
+li
+{
+  color: white;
+}

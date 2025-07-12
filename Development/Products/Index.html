@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<!---------- The DOCUMENT type declaration specifies the version of HTML being used ----------->
+
+<html lang="en">
+<head>
+  
+    <!---------- meta are used for character encoding and responsive view port settings ----------->
+    
+    <meta charset="UTF-8">
+    <meta name="description" content="html">
+    <meta name="keyword" content="HTML, CSS">
+    <meta name="author" content="Rohit Joshi">
+    <meta http-equiv="referesh" content="2">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="../Products/CSS/Productpage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <script>
+        function redirectToProductPage(pageUrl) {
+            window.location.href = pageUrl;
+        }
+    </script>
+</head>
+<body>
+     
+<header>
+    
+     <!-------- Header typically contains navigation and heading elements ---------->
+
+    <nav class="navbar">
+
+        <ul>
+
+            <!-------- Href tag is used to redirect to other internal or external links when clicked on it -------->
+
+            <li><a href="../HOME/newhome.html">Home</a></li>
+            <li><a href="Index.html">Products</a></li>
+            <li><a href="../Blog/blog.html">Blog</a></li>
+            <li><a href="../research/research.html">Research</a></li>
+            <li><a href="../About Us/index.html">About Us</a></li>
+            <li><a href="../Contact/index.html">Contact</a></li>
+
+             <!--------------- Used for listing iteams ----------------->
+
+        </ul>
+
+    </nav>
+</header>
+
+    <!------------------ Product Row-1 -------------------->
+
+    <h1 class="title">Personal and Industrial Printers </h1>
+    <div class="row">
+
+        <!------ Division tag is used for creating a container for product details to group and style ------>
+        
+        <div class="container">
+
+        <!------- Image tag is used to display the product image -------->
+
+            <img src="Images/a-removebg-preview.png" alt="Product 1" onclick="redirectToProductPage('HTML/discription-1.html')">
+            <h2> EcoTank ET-2400 Wireless</h2><br>
+            <p class = "last-price">Old Price: <span>$180.00</span></p>
+            <p class = "new-price">New Price: <span>$129.05 (OFF 5%)</span></p>
+        </div>
+
+        <div class="container">
+
+        <!------- Image tag is used to display the product image -------->
+
+            <img src="Images/a2-removebg-preview.png" alt="Product 2" onclick="redirectToProductPage('HTML/discription-2.html')">
+            <h2>WorkForce Pro WF-6590</h2><br>
+            <p class = "last-price">Old Price: <span>$690.00</span></p>
+            <p class = "new-price">New Price: <span>$639.05 (OFF 5%)</span></p>
+        </div>
+
+        <div class="container">
+
+            <!------- Image tag is used to display the product image -------->
+
+            <img src="Images/SC-P700_headon_690x460__1_-removebg-preview.png" alt="Product 3" onclick="redirectToProductPage('HTML/discription-3.html')">
+            <h2> SureColor® P700 13-Inch </h2>
+            <p class = "last-price">Old Price: <span>$890.00</span></p>
+            <p class = "new-price">New Price: <span>$815.05 (OFF 5%)</span></p>
+        </div>
+
+        <div class="container">
+
+            <!------- Image tag is used to display the product image -------->
+
+            <img src="Images/c2-removebg-preview.png" alt="Product 4" onclick="redirectToProductPage('HTML/discription-4.html')">
+            <h2> WorkForce DS-70000 </h2>
+            <p class = "last-price">Old Price: <span>$3999.00</span></p>
+            <p class = "new-price">New Price: <span>$3699.05 (OFF 5%)</span></p>
+        </div>
+    </div>
+
+    <!------------------ Product Row-2 -------------------->
+    
+    <br>
+    <hr>
+    <br><br>
+
+    <div class="row">
+        
+        <!------ Division tag is used for creating a container for product details to group and style ------>
+
+        <div class="container">
+
+        <!------- Image tag is used to display the product image -------->
+
+        <img src="Images/d1-removebg-preview.png" alt="Product 5" onclick="redirectToProductPage('HTML/discription-5.html')">
+            <h2> DS-70 Portable Document Scanner </h2><br>
+            <p class = "last-price">Old Price: <span>$190.00</span></p>
+            <p class = "new-price">New Price: <span>$159.05 (OFF 5%)</span></p>
+        </div>
+
+        <div class="container">
+
+            <!------- Image tag is used to display the product image -------->
+
+            <img src="Images/big.1.png" alt="Product 6" onclick="redirectToProductPage('HTML/discription-6.html')">
+            <h2> WorkForce Enterprise WF-M21000 </h2><br>
+            <p class = "last-price">Old Price: <span>$4999.00</span></p>
+            <p class = "new-price">New Price: <span>$4769.05 (OFF 5%)</span></p>
+        </div>
+
+        <div class="container">
+            
+            <!------- Image tag is used to display the product image -------->
+
+            <img src="Images/big2.png" alt="Product 7" onclick="redirectToProductPage('HTML/discription-7.html')">
+            <h2> SureColor P20000 Standard Edition </h2>
+            <p class = "last-price">Old Price: <span>$3999.00</span></p>
+            <p class = "new-price">New Price: <span>$3699.05 (OFF 5%)</span></p>
+        </div>
+
+        <div class="container">
+
+            <!------- Image tag is used to display the product image -------->
+
+            <img src="Images/big1-removebg-preview.png" alt="Product 8" onclick="redirectToProductPage('HTML/discription-8.html')">
+            <h2> SureColor P8570DL 44-Inch Wide </h2>
+            <p class = "last-price">Old Price: <span>$9,945.00</span></p>
+            <p class = "new-price">New Price: <span>$9,900.05 (OFF 5%)</span></p>
+        </div>
+    </div>
+    
+    <!------------- Footer --------------->
+
+  <footer class="footer">
+
+    <img src="Images/bumble_black-removebg-preview.png" style= "width:250px; height:250px;  width: 100%;  align-items:center; object-fit:contain;"">
+<div class="socials">
+
+    <!-------- Href tag is used to redirect to other internal or external links when clicked on it -------->
+   
+    <a href="https://www.facebook.com/"> <img src="Images/FACEBOOK LOGO.png"></a>
+    </div>
+    <div class="socials">
+   <a href="https://www.instagram.com/"> <img src="Images/INSTA LOGO.png"></a>
+</div>
+<div class="socials">
+    <a href="https://www.twitter.com/"><img src="Images/TWITTER LOGO.png"></a>
+</div>
+<div class="socials">
+    <a href="https://www.linkedin.com/"><img src="Images/LINKEDIN LOGO.png"></a>
+</div>
+<h5 style="opacity: 50%;">Copyright &copy; 2023 Bumble Printers Inc. All Rights Reserved.</h5>
+
+</footer>
+</body>
+</html>
